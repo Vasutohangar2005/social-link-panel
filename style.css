@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block
+}
+
+html{
+    font-family:'open sans';
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 100vh;
+}
+.box{
+    background-color: hsl(0, 0%, 12%);
+    width: 335px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 105px;
+}
+.img{
+    border-radius: 50%;
+    margin-top: 33px;
+}
+ul{
+    list-style: none;
+}
+.git{
+   text-decoration: none;
+   background-color: hsl(0, 0%, 20%);
+   width: 203px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 6px;
+   color: white;
+   margin-bottom: 15px;
+   margin-top: 29px;
+}
+.frontendmentor{
+   text-decoration: none;
+   background-color: hsl(0, 0%, 20%);
+   width: 203px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 6px;
+   color: white;
+   margin-bottom: 15px;
+
+}
+.linkedin{
+   text-decoration: none;
+   background-color: hsl(0, 0%, 20%);
+   width: 203px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 6px;
+   color: white;
+   margin-bottom: 15px;
+}
+.twitter{
+   text-decoration: none;
+   background-color: hsl(0, 0%, 20%);
+   width: 203px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 6px;
+   color: white;
+   margin-bottom: 15px;
+}
+.instagram{
+   text-decoration: none;
+   background-color: hsl(0, 0%, 20%);
+   width: 203px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 6px;
+   color: white;
+   margin-bottom: 15px;
+}
+h1{
+    font-family: poppins;
+    font-size: 30px;
+    color: aliceblue;
+}
+.place{
+    color: hsl(75, 94%, 57%);
+}
+p{
+    color: aliceblue;
+}
+.git:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
+    transition: 100ms ease-in-out;
+    width: 208px;
+    font-size: larger;
+}
+.frontendmentor:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
+    font-size: larger;
+    transition: 100ms ease-in-out;
+    width: 208px;
+}
+.linkedin:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
+    font-size: larger;
+    transition: 100ms ease-in-out;
+    width: 208px;
+}
+.twitter:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
+    font-size: larger;
+    transition: 100ms ease-in-out;
+    width: 208px;
+}
+.instagram:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
+    font-size: larger;
+    transition: 100ms ease-in-out;
+    width: 208px;
+}
